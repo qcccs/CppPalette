@@ -1,3 +1,171 @@
 [2013/01/17 15:01:35] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\CSourceFilePalette\..\UserLanguage
 [2013/01/20 09:29:02] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\CSourceFilePalette\..\UserLanguage
 [2013/01/22 12:57:29] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\CSourceFilePalette\..\UserLanguage
+[2013/01/25 16:21:48] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\edu-mass-qcc-cpluspluslearningpalette\..\UserLanguage
+[2013/01/26 05:06:08] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\edu-mass-qcc-cpluspluslearningpalette\..\UserLanguage
+[2013/01/26 05:07:24] [message] java.lang.ClassNotFoundException: Cannot instantiate org.netbeans.modules.cnd.debugger.common2.debugger.actions.EvaluateAction for MultiFileObject@3c60aeac[Actions/Debug/org-netbeans-modules-cnd-debugger-common2-EvaluateAction.instance]
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceSupport.instanceCreate(InstanceSupport.java:233)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceDataObject$Ser.instanceCreate(InstanceDataObject.java:1404)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceDataObject.instanceCreate(InstanceDataObject.java:842)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.createAction(LayersBridge.java:545)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.initActions(LayersBridge.java:168)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.initActions(LayersBridge.java:132)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.getActions(LayersBridge.java:117)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapModel.getActionCategories(KeymapModel.java:108)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapModel.<init>(KeymapModel.java:508)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapViewModel.<init>(KeymapViewModel.java:89)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanel.getModel(KeymapPanel.java:325)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanel.<init>(KeymapPanel.java:104)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanelController.getKeymapPanel(KeymapPanelController.java:119)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanelController.getLookup(KeymapPanelController.java:99)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$Category.getLookup(CategoryModel.java:433)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$Category.access$000(CategoryModel.java:320)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$1.run(CategoryModel.java:96)
+[2013/01/26 05:07:24] [message] at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1452)
+[2013/01/26 05:07:24] [message] at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2032)
+[2013/01/26 05:07:24] [message] Caused by: java.lang.IllegalArgumentException: java.lang.reflect.InvocationTargetException
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.findObject(SharedClassObject.java:535)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceSupport.instanceCreate(InstanceSupport.java:217)
+[2013/01/26 05:07:24] [message] ... 18 more
+[2013/01/26 05:07:24] [message] Caused by: java.lang.reflect.InvocationTargetException
+[2013/01/26 05:07:24] [message] at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2013/01/26 05:07:24] [message] at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+[2013/01/26 05:07:24] [message] at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[2013/01/26 05:07:24] [message] at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.createInstancePrivileged(SharedClassObject.java:658)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject$SetAccessibleAction.run(SharedClassObject.java:1018)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject$SetAccessibleAction.run(SharedClassObject.java:1010)
+[2013/01/26 05:07:24] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.findObject(SharedClassObject.java:532)
+[2013/01/26 05:07:24] [message] ... 19 more
+[2013/01/26 05:07:24] [message] Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.netbeans.modules.cnd.debugger.common2.debugger.NativeDebuggerManager$LazyInitializer
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.cnd.debugger.common2.debugger.NativeDebuggerManager.get(NativeDebuggerManager.java:201)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.cnd.debugger.common2.debugger.actions.EvaluateAction.<init>(EvaluateAction.java:67)
+[2013/01/26 05:07:24] [message] ... 28 more
+[2013/01/26 05:07:24] [message] java.lang.ClassNotFoundException: Cannot instantiate org.netbeans.modules.cnd.debugger.common2.debugger.actions.RunToCursorInstAction for MultiFileObject@4c45536a[Actions/Debug/org-netbeans-modules-cnd-debugger-common2-RunToCursorInstAction.instance]
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceSupport.instanceCreate(InstanceSupport.java:233)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceDataObject$Ser.instanceCreate(InstanceDataObject.java:1404)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceDataObject.instanceCreate(InstanceDataObject.java:842)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.createAction(LayersBridge.java:545)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.initActions(LayersBridge.java:168)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.initActions(LayersBridge.java:132)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.getActions(LayersBridge.java:117)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapModel.getActionCategories(KeymapModel.java:108)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapModel.<init>(KeymapModel.java:508)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapViewModel.<init>(KeymapViewModel.java:89)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanel.getModel(KeymapPanel.java:325)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanel.<init>(KeymapPanel.java:104)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanelController.getKeymapPanel(KeymapPanelController.java:119)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanelController.getLookup(KeymapPanelController.java:99)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$Category.getLookup(CategoryModel.java:433)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$Category.access$000(CategoryModel.java:320)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$1.run(CategoryModel.java:96)
+[2013/01/26 05:07:24] [message] at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1452)
+[2013/01/26 05:07:24] [message] at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2032)
+[2013/01/26 05:07:24] [message] Caused by: java.lang.IllegalArgumentException: java.lang.reflect.InvocationTargetException
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.findObject(SharedClassObject.java:535)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceSupport.instanceCreate(InstanceSupport.java:217)
+[2013/01/26 05:07:24] [message] ... 18 more
+[2013/01/26 05:07:24] [message] Caused by: java.lang.reflect.InvocationTargetException
+[2013/01/26 05:07:24] [message] at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2013/01/26 05:07:24] [message] at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+[2013/01/26 05:07:24] [message] at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[2013/01/26 05:07:24] [message] at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.createInstancePrivileged(SharedClassObject.java:658)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject$SetAccessibleAction.run(SharedClassObject.java:1018)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject$SetAccessibleAction.run(SharedClassObject.java:1010)
+[2013/01/26 05:07:24] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.findObject(SharedClassObject.java:532)
+[2013/01/26 05:07:24] [message] ... 19 more
+[2013/01/26 05:07:24] [message] Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.netbeans.modules.cnd.debugger.common2.debugger.NativeDebuggerManager$LazyInitializer
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.cnd.debugger.common2.debugger.NativeDebuggerManager.get(NativeDebuggerManager.java:201)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.cnd.debugger.common2.debugger.actions.RunToCursorInstAction.<init>(RunToCursorInstAction.java:63)
+[2013/01/26 05:07:24] [message] ... 28 more
+[2013/01/26 05:07:24] [message] java.lang.ClassNotFoundException: Cannot instantiate org.netbeans.modules.cnd.debugger.common2.debugger.actions.StepInstAction for MultiFileObject@796f295e[Actions/Debug/org-netbeans-modules-cnd-debugger-common2-StepInstAction.instance]
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceSupport.instanceCreate(InstanceSupport.java:233)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceDataObject$Ser.instanceCreate(InstanceDataObject.java:1404)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceDataObject.instanceCreate(InstanceDataObject.java:842)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.createAction(LayersBridge.java:545)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.initActions(LayersBridge.java:168)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.initActions(LayersBridge.java:132)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.getActions(LayersBridge.java:117)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapModel.getActionCategories(KeymapModel.java:108)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapModel.<init>(KeymapModel.java:508)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapViewModel.<init>(KeymapViewModel.java:89)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanel.getModel(KeymapPanel.java:325)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanel.<init>(KeymapPanel.java:104)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanelController.getKeymapPanel(KeymapPanelController.java:119)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanelController.getLookup(KeymapPanelController.java:99)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$Category.getLookup(CategoryModel.java:433)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$Category.access$000(CategoryModel.java:320)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$1.run(CategoryModel.java:96)
+[2013/01/26 05:07:24] [message] at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1452)
+[2013/01/26 05:07:24] [message] at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2032)
+[2013/01/26 05:07:24] [message] Caused by: java.lang.IllegalArgumentException: java.lang.reflect.InvocationTargetException
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.findObject(SharedClassObject.java:535)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceSupport.instanceCreate(InstanceSupport.java:217)
+[2013/01/26 05:07:24] [message] ... 18 more
+[2013/01/26 05:07:24] [message] Caused by: java.lang.reflect.InvocationTargetException
+[2013/01/26 05:07:24] [message] at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2013/01/26 05:07:24] [message] at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+[2013/01/26 05:07:24] [message] at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[2013/01/26 05:07:24] [message] at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.createInstancePrivileged(SharedClassObject.java:658)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject$SetAccessibleAction.run(SharedClassObject.java:1018)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject$SetAccessibleAction.run(SharedClassObject.java:1010)
+[2013/01/26 05:07:24] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.findObject(SharedClassObject.java:532)
+[2013/01/26 05:07:24] [message] ... 19 more
+[2013/01/26 05:07:24] [message] Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.netbeans.modules.cnd.debugger.common2.debugger.NativeDebuggerManager$LazyInitializer
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.cnd.debugger.common2.debugger.NativeDebuggerManager.get(NativeDebuggerManager.java:201)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.cnd.debugger.common2.debugger.actions.StepInstAction.<init>(StepInstAction.java:67)
+[2013/01/26 05:07:24] [message] ... 28 more
+[2013/01/26 05:07:24] [message] java.lang.ClassNotFoundException: Cannot instantiate org.netbeans.modules.cnd.debugger.common2.debugger.actions.StepOutInstAction for MultiFileObject@3e6e7a07[Actions/Debug/org-netbeans-modules-cnd-debugger-common2-StepOutInstAction.instance]
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceSupport.instanceCreate(InstanceSupport.java:233)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceDataObject$Ser.instanceCreate(InstanceDataObject.java:1404)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceDataObject.instanceCreate(InstanceDataObject.java:842)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.createAction(LayersBridge.java:545)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.initActions(LayersBridge.java:168)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.initActions(LayersBridge.java:132)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.LayersBridge.getActions(LayersBridge.java:117)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapModel.getActionCategories(KeymapModel.java:108)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapModel.<init>(KeymapModel.java:508)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapViewModel.<init>(KeymapViewModel.java:89)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanel.getModel(KeymapPanel.java:325)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanel.<init>(KeymapPanel.java:104)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanelController.getKeymapPanel(KeymapPanelController.java:119)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.keymap.KeymapPanelController.getLookup(KeymapPanelController.java:99)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$Category.getLookup(CategoryModel.java:433)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$Category.access$000(CategoryModel.java:320)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.options.CategoryModel$1.run(CategoryModel.java:96)
+[2013/01/26 05:07:24] [message] at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1452)
+[2013/01/26 05:07:24] [message] at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2032)
+[2013/01/26 05:07:24] [message] Caused by: java.lang.IllegalArgumentException: java.lang.reflect.InvocationTargetException
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.findObject(SharedClassObject.java:535)
+[2013/01/26 05:07:24] [message] at org.openide.loaders.InstanceSupport.instanceCreate(InstanceSupport.java:217)
+[2013/01/26 05:07:24] [message] ... 18 more
+[2013/01/26 05:07:24] [message] Caused by: java.lang.reflect.InvocationTargetException
+[2013/01/26 05:07:24] [message] at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2013/01/26 05:07:24] [message] at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+[2013/01/26 05:07:24] [message] at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[2013/01/26 05:07:24] [message] at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.createInstancePrivileged(SharedClassObject.java:658)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject$SetAccessibleAction.run(SharedClassObject.java:1018)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject$SetAccessibleAction.run(SharedClassObject.java:1010)
+[2013/01/26 05:07:24] [message] at java.security.AccessController.doPrivileged(Native Method)
+[2013/01/26 05:07:24] [message] at org.openide.util.SharedClassObject.findObject(SharedClassObject.java:532)
+[2013/01/26 05:07:24] [message] ... 19 more
+[2013/01/26 05:07:24] [message] Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.netbeans.modules.cnd.debugger.common2.debugger.NativeDebuggerManager$LazyInitializer
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.cnd.debugger.common2.debugger.NativeDebuggerManager.get(NativeDebuggerManager.java:201)
+[2013/01/26 05:07:24] [message] at org.netbeans.modules.cnd.debugger.common2.debugger.actions.StepOutInstAction.<init>(StepOutInstAction.java:67)
+[2013/01/26 05:07:24] [message] ... 28 more
+[2013/01/26 05:31:10] [warning] Language dir not found: C:\Users\ian\Documents\NetBeansProjects\edu-mass-qcc-cpluspluslearningpalette\..\UserLanguage
+[2013/01/26 05:32:44] [message] string
+[2013/01/26 05:32:44] [message] myStr
+[2013/01/26 05:32:44] [message] Inserting Code
+[2013/01/26 05:33:30] [message] bool
+[2013/01/26 05:33:30] [message] myB
+[2013/01/26 05:33:30] [message] Valid Name
+[2013/01/26 05:33:30] [message] Inserting Code
+[2013/01/26 05:42:25] [message] Valid Object Names
+[2013/01/26 05:42:25] [message] Inserting Code

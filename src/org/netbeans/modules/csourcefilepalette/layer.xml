@@ -14,14 +14,13 @@
     </folder>
 
     <folder name="CPalette">
-        <folder name="Objects, Classes, Methods">
+        <folder name="Objects, Classes, Functions">
             <attr name="displayName" bundlevalue="org.netbeans.modules.csourcefilepalette.Bundle#CPalette/Objects, Classes, Methods"/>
-            <file name="Item.xml" url="items/resources/Item.xml">
-                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.netbeans.modules.csourcefilepalette.Bundle"/>
-            </file>
             
-            <file name="NewClass.xml" url="NewClass.xml"/>
-            <file name="NewMethod.xml" url="NewMethod.xml"/>
+            <file name="Item.xml" url="Item.xml"/>
+            <file name="clssitem.xml" url="clssitem.xml"/>
+            <file name="clsitem.xml" url="clsitem.xml"/>
+            <file name="NewFunction.xml" url="NewFunction.xml"/>
             <file name="NewObject.xml" url="NewObject.xml"/>
             
                 
@@ -31,7 +30,7 @@
             <file name="ShortVar.xml" url="ShortVar.xml"/>
             <file name="LongVar.xml" url="LongVar.xml"/>
             <file name="BooleanVar.xml" url="BooleanVar.xml"/>
-            <file name="ByteVar.xml" url="ByteVar.xml"/>
+            
             <file name="CharVar.xml" url="CharVar.xml"/>
             <file name="StringVar.xml" url="StringVar.xml"/>
             <file name="DoubleVar.xml" url="DoubleVar.xml"/>
@@ -60,7 +59,7 @@
             <file name="IntegerArray.xml" url="IntegerArray.xml"/>
             <file name="CharArray.xml" url="CharArray.xml"/>
             <file name="DoubleArray.xml" url="DoubleArray.xml"/>
-            <file name="ByteArray.xml" url="ByteArray.xml"/>
+            
         </folder>
         
         <folder name="Input Output">
@@ -79,17 +78,14 @@
         </folder>
                  
         <folder name="Macros">
-            <file name="abitem.xml" url="abitem.xml"/>
-            <file name="forcitem.xml" url="forcitem.xml"/>
-            <file name="foreitem.xml" url="foreitem.xml"/>
+            <file name="boitem.xml" url="boitem.xml"/>
             <file name="foriitem.xml" url="foriitem.xml"/>
-            <file name="newoitem.xml" url="newoitem.xml"/>
-            <file name="serritem.xml" url="serritem.xml"/>
-            <file name="soutitem.xml" url="soutitem.xml"/>
-            <file name="tdsitem.xml" url="tdsitem.xml"/>
-            <file name="twitem.xml" url="twitem.xml"/>
-            <file name="whileititem.xml" url="whileititem.xml"/>
-            <file name="dowhileitem.xml" url="dowhileitem.xml"/>
+            <file name="ifeitem.xml" url="ifeitem.xml"/>
+            <file name="iffitem.xml" url="iffitem.xml"/>
+            <file name="incitem.xml" url="incitem.xml"/>
+            <file name="nsitem.xml" url="nsitem.xml"/>
+            <file name="whileitem.xml" url="whileitem.xml"/>
+            
         </folder>
         
         

@@ -172,9 +172,9 @@
             </test-dependencies>
             <public-packages>
                 <package>edu.mass.qcc.qcccodewizard</package>
-                <package>org.netbeans.modules.javasourcefilepalette</package>
-                <package>org.netbeans.modules.javasourcefilepalette.items</package>
-                <package>org.netbeans.modules.javasourcefilepalette.items.resources</package>
+                <package>org.netbeans.modules.csourcefilepalette</package>
+                <package>org.netbeans.modules.csourcefilepalette.items</package>
+                <package>org.netbeans.modules.csourcefilepalette.items.resources</package>
             </public-packages>
         </data>
     </configuration>
