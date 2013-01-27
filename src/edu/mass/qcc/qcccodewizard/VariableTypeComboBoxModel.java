@@ -16,7 +16,7 @@ import javax.swing.ComboBoxModel;
  */
 class VariableTypeComboBoxModel extends AbstractListModel implements ComboBoxModel {
     String[] VariableTypes = {
-        "Int", "String", "Char", "Short", "Long", "Float", "Double", "Boolean"
+        "int", "string", "char", "short", "long", "float", "double", "bool"
     };
     String   selection     = null;
 

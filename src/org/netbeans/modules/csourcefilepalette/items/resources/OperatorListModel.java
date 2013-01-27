@@ -17,13 +17,12 @@ import javax.swing.ComboBoxModel;
 class OperatorListModel extends AbstractListModel implements ComboBoxModel {
     String[] operators = {
         "Assignment", "=", "*=", "/=", "%=", "+=", "-=", ">>=", "<<=", "&=", "^=", 
-        "|=", "Arithmetic", "+", "-", "*", "/", "%", "Unary", "+", "-", "++", "--", "!",
+        "|=", "Pointer", "*", "&", "Arithmetic", "+", "-", "*", "/", "%", "Unary", "+", "-", "++", "--", "!",
         "::","sizeof","new","delete",
         "Equality & Relational", "==", "!=", ">", ">=", "<", "<=", 
         "Conditional", "&&", "||", "?:", "Bitwise and Shift",
         "~", "<<", ">>", ">>>", "&", "^", "|", 
-        "Type Casting", "(int)","(float)","(double)", "(string)", "(char)",
-        "Pointers", "*", "&"
+        "Type Casting", "(int)","(float)","(double)", "(string)", "(char)"
     };
     String selection = null;
 
