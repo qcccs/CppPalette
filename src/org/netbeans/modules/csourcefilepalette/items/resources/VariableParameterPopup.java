@@ -57,7 +57,7 @@ public class VariableParameterPopup extends javax.swing.JPanel {
 
         String displayName = "";
         try {
-            displayName = NbBundle.getBundle("org.netbeans.modules.csourcefilepalette.items.resources.Bundle").getString("NAME_html-VariableParameterPopup");
+            displayName = NbBundle.getBundle("org.netbeans.modules.csourcefilepalette.items.resources.Bundle").getString("NAME_html-VariableParameter");
         } catch (Exception e) {
             System.out.println("Can't get display name: " + e);
         }
