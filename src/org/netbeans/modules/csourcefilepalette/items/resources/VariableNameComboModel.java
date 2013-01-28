@@ -8,12 +8,14 @@ package org.netbeans.modules.csourcefilepalette.items.resources;
 //~--- non-JDK imports --------------------------------------------------------
 
 import edu.mass.qcc.qcccodewizard.*;
+import java.io.FileNotFoundException;
 
 
 import java.util.ArrayList;
 
 import javax.swing.AbstractListModel;
 import javax.swing.ComboBoxModel;
+import org.openide.util.Exceptions;
 
 /**
  *
@@ -31,20 +33,15 @@ class VariableNameComboModel extends AbstractListModel implements ComboBoxModel 
 
         // Find Variables
         String keyWords[] = {"int","char","bool", "float", "double", "void", "w_chart"};
-        //Open document
-        
-        //Search Document
-        
-        //Close Document
-        
-        
-        
-        
+        GetVariableDeclarations vd = null;
+            
+            try {
+            vd = new GetVariableDeclarations();
+        } catch (FileNotFoundException ex) {
+            Exceptions.printStackTrace(ex);
+        } 
 
-        GetVariableDeclarations vd = new GetVariableDeclarations();
-
-        
-
+            
         ArrayList variableNamesArray = vd.getMyArray();
         ArrayList variableTypesArray = vd.getMyTypeArray();
 

@@ -8,17 +8,14 @@ package edu.mass.qcc.qcccodewizard;
 //~--- non-JDK imports --------------------------------------------------------
 
 
-import org.openide.util.Exceptions;
-
-//~--- JDK imports ------------------------------------------------------------
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
 import java.util.ArrayList;
 
 import javax.swing.AbstractListModel;
 import javax.swing.ComboBoxModel;
+import org.openide.util.Exceptions;
 
 /**
  * Open and read each line of the current java source file collecting all
@@ -28,37 +25,48 @@ import javax.swing.ComboBoxModel;
  */
 class VariableNameComboModel extends AbstractListModel implements ComboBoxModel {
 
-    // Open and read each line of the current java source file collecting all variables
+    // Open and read each line of the current c++ source file collecting all variables
     // into the foundVariables ArrayList.
     String[] variableNames = { " " };
     String[] variableTypes = { " " };
     String   selection     = null;
 
     public VariableNameComboModel() {
-
         
+            GetVariableDeclarations vd = null;
+            
+            try {
+            vd = new GetVariableDeclarations();
+        } catch (FileNotFoundException ex) {
+            Exceptions.printStackTrace(ex);
+        } 
 
-        GetVariableDeclarations vd = new GetVariableDeclarations();
+            
+            ArrayList variableNamesArray = vd.getMyArray();
+            ArrayList variableTypesArray = vd.getMyTypeArray();
 
-        ArrayList variableNamesArray = vd.getMyArray();
-        ArrayList variableTypesArray = vd.getMyTypeArray();
-
-        this.variableNames = (String[]) variableNamesArray.toArray(new String[0]);
-        this.variableTypes = (String[]) variableTypesArray.toArray(new String[0]);
+            this.variableNames = (String[]) variableNamesArray.toArray(new String[0]);
+            this.variableTypes = (String[]) variableTypesArray.toArray(new String[0]);
+        
     }
 
-    public void Refresh() {
-
-        // Find Variables
+    public void Refresh()  {
        
-        GetVariableDeclarations vd = new GetVariableDeclarations();
+            // Find Variables
+           GetVariableDeclarations vd = null;
+            
+            try {
+            vd = new GetVariableDeclarations();
+        } catch (FileNotFoundException ex) {
+            Exceptions.printStackTrace(ex);
+        } 
 
+            ArrayList variableNamesArray = vd.getMyArray();
+            ArrayList variableTypesArray = vd.getMyTypeArray();
 
-        ArrayList variableNamesArray = vd.getMyArray();
-        ArrayList variableTypesArray = vd.getMyTypeArray();
-
-        this.variableNames = (String[]) variableNamesArray.toArray(new String[0]);
-        this.variableTypes = (String[]) variableTypesArray.toArray(new String[0]);
+            this.variableNames = (String[]) variableNamesArray.toArray(new String[0]);
+            this.variableTypes = (String[]) variableTypesArray.toArray(new String[0]);
+        
     }
 
     @Override
