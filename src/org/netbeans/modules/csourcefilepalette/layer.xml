@@ -25,20 +25,9 @@
             
                 
         </folder>
-        <folder name="Variables">
-            <file name="IntegerVar.xml" url="IntegerVar.xml"/>
-            <file name="ShortVar.xml" url="ShortVar.xml"/>
-            <file name="LongVar.xml" url="LongVar.xml"/>
-            <file name="BooleanVar.xml" url="BooleanVar.xml"/>
-            
-            <file name="CharVar.xml" url="CharVar.xml"/>
-            <file name="StringVar.xml" url="StringVar.xml"/>
-            <file name="DoubleVar.xml" url="DoubleVar.xml"/>
-            <file name="FloatVar.xml" url="FloatVar.xml"/>
-            <file name="Expression.xml" url="Expression.xml"/>
-        <file name="VariableParameter.xml" url="VariableParameter.xml"/>
-<file name="VariablePointer.xml" url="VariablePointer.xml"/>
-</folder>
+        <folder name="Peter's Awesome Stuff">
+            <file name="Variable.xml" url="Variable.xml"/>
+        </folder>
         
         <folder name="Decisions">
             <file name="IfStatementItem.xml" url="IfStatementItem.xml"/>
