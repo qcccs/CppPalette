@@ -1,76 +1,18 @@
-
-/*
-*
-*
-* To change this template, choose Tools | Templates
-* and open the template in the editor.
- */
 package org.netbeans.modules.csourcefilepalette.items;
 
-//~--- non-JDK imports --------------------------------------------------------
-
-import org.netbeans.modules.csourcefilepalette.items.resources.IfStatementPopup;
-
-import org.openide.text.ActiveEditorDrop;
-
-//~--- JDK imports ------------------------------------------------------------
-
-import javax.swing.text.BadLocationException;
 import javax.swing.text.JTextComponent;
+import org.netbeans.modules.csourcefilepalette.items.resources.IfPopup;
+import org.openide.text.ActiveEditorDrop;
 
 /**
  *
- *
+ * @author Peter
  */
 public class IfStatement implements ActiveEditorDrop {
-    private String comment = "";
-
-    private String createBody() {
-        comment = getComment();
-
-        StringBuilder buffer = new StringBuilder();
-
-        buffer.append("// ").append(comment).append("\n");
-
-        return buffer.toString();
-    }
-
-    /**
-     *
-     * @param targetComponent
-     * @return
-     */
-    public boolean handleTransfer(JTextComponent targetComponent) {
-        IfStatementPopup c      = new IfStatementPopup(this, targetComponent);
-        boolean          accept = c.showDialog();
-
-        if (accept) {
-            String body = this.createBody();
-
-            try {
-                CSourceFilePaletteUtilities.insert(body, targetComponent);
-            } catch (BadLocationException ble) {
-                accept = false;
-            }
-        }
-
-        return accept;
-    }
-
-    /**
-     *
-     * @return
-     */
-    public String getComment() {
-        return comment;
-    }
-
-    /**
-     *
-     * @param comment
-     */
-    public void setComment(String comment) {
-        this.comment = comment;
+    @Override
+    public boolean handleTransfer(JTextComponent target) {
+        IfPopup c = new IfPopup(target);
+        return true;
     }
 }
 

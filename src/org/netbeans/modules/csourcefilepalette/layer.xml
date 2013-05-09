@@ -27,10 +27,10 @@
         </folder>
         <folder name="Peter's Awesome Stuff">
             <file name="Variable.xml" url="Variable.xml"/>
+            <file name="IfStatement.xml" url="IfStatement.xml"/>
         </folder>
         
         <folder name="Decisions">
-            <file name="IfStatementItem.xml" url="IfStatementItem.xml"/>
             <file name="Else.xml" url="Else.xml"/>
             <file name="ElseIf.xml" url="ElseIf.xml"/>
             <file name="SwitchCase.xml" url="SwitchCase.xml"/>

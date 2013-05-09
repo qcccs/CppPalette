@@ -9,8 +9,8 @@ import org.openide.text.ActiveEditorDrop;
  * @author Peter
  */
 public class Variable implements ActiveEditorDrop {
-    public boolean handleTransfer(JTextComponent targetComponent) {
-        VariablePopup c = new VariablePopup(this, targetComponent);
+    public boolean handleTransfer(JTextComponent target) {
+        VariablePopup c = new VariablePopup(target);
         return true;
     }
 }
